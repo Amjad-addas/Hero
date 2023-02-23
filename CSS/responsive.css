@@ -1,0 +1,281 @@
+
+/*header*/
+@media (max-width: 992px) {
+
+    
+    header .container .header ul{
+        display: none;
+    }
+    header{
+        padding:  15px;
+    }
+    .fa-solid{
+        display: block;
+        font-size: 2.8rem;
+        font-weight: 400;
+
+      }
+      
+      header .container .header .drop-down:hover nav ul{
+        display: block;
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        left: 0;
+
+      }
+      header .container .header .drop-down:hover nav ul{
+        background-color:#eee;
+        height: 100vh;
+      }
+      header .container .header .drop-down:hover nav ul li:first-child{
+        margin-top: 0;
+      }
+      header .container .header .drop-down:hover nav ul li{
+        display: block;
+       text-align: start;
+       padding-top: 25px;
+       padding-left: 25px;
+
+      }
+      header .container .header .drop-down:hover nav ul li:last-child{
+        margin-bottom: 25px;
+      }
+      header .container .header ul li:hover a{
+        padding-left: 25px;
+        color: #316b9e;
+      }
+      header .container .header ul li:hover a::before{
+        width: 0;
+        background-color: #316b9e;
+    }
+  }
+/*header*/
+/*hero*/
+@media (min-width: 992px) {
+    .hero .content {
+        position: static;
+    }
+    }
+    @media (min-width: 768px) {
+    .hero{
+        margin-top: 80px;
+        height: 560px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .hero .content {
+        position: static;
+    }
+    }
+    @media (max-width: 767px) {
+    .hero .container{
+        width: 0;
+        height: 0;
+    }
+    .hero{
+        position: static;
+        margin-top: 80px;
+        background-image:none; 
+    
+        height: 0;
+    
+    }
+    .hero .content {
+        position: static;
+    
+    
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .hero .content h1{
+    font-size: 2rem;
+    font-weight: bold;
+    }
+    .hero .content p{
+    font-size: 1.0rem;
+    font-weight: normal;
+    }
+    .hero .content .btn-link{
+    display: flex;
+    gap: 31px;
+    }
+    .hero .content a{
+    background-color: var(--black-ligth);
+    width: 132px;
+    height: 41px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    transition: .3s;
+    }
+    }
+    @media (min-width: 1200px) {
+    
+    .hero{
+        position: relative;
+        background-image: url(../img/hero-1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: end;
+        justify-content:right;
+        min-height: 100vh;
+        background-position: left;
+    }
+    .hero .content{
+        width:  40rem;
+        position: absolute;
+        right: 140px;
+        bottom: 70px;
+    }
+    .hero .content h1{
+        font-size: 8rem;
+        font-weight: bold;
+    }
+    .hero .content p{
+        font-size: 1.8rem;
+        font-weight: normal;
+    }
+    .hero .content .btn-link{
+        display: flex;
+        gap: 31px;
+    }
+    .hero .content a{
+        background-color: var(--black-ligth);
+        width: 132px;
+        height: 41px;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 1.8rem;
+        transition: .3s;
+    }
+    .hero .content .btn-link a:hover{
+        background-color: #79a9d3;
+    }
+    
+    }
+/*hero*/
+
+
+/*catagory*/
+@media (min-width: 768px) {
+    .catagories{
+      margin-top: 100px;
+      }
+      .catagories .container .catagories-product{
+        display: block;
+      }
+      .catagories .container .first .top-image img{
+        width: 100%;
+      }
+      .catagories .container .second img{
+        width: 100%;
+      }
+      .catagories .container .first .bottom-image img{
+        width: 100%;
+      }
+  }
+  @media (min-width: 992px) {
+    .catagories .container .first .bottom-image{
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;  
+      margin: 10px 0;
+    }
+    .catagories .container .catagories-product{
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;  
+      margin: 10px 0;
+    }
+  }
+  @media (min-width: 1200px) {
+    .catagories .container .first .bottom-image{
+      margin: 20px 0;
+    }
+  
+  }
+  @media (max-width: 767px) {
+    .catagories{
+      margin-top: 400px;
+      }
+      .avone-style  .fav-catagories .catagory2{
+        overflow: hidden;
+      
+      }
+      .catagories .container .catagories-product{
+        display: block;
+      }
+      .catagories .container .first .top-image img{
+        width: 100%;
+      }
+      .catagories .container .second img{
+        width: 100%;
+      }
+      .catagories .container .first .bottom-image img{
+        width: 100%;
+      }
+  }
+  /*catagory*/
+/*AVONE*/
+@media (min-width: 992px) {
+    .avone-style .fav-catagories .catagory2 img{
+      width: 100%;
+    }
+    .avone-style  .fav-catagories .catagory1 img{
+      width:100%;
+    }
+    .avone-style  .fav-catagories{
+      display: flex;
+      justify-content: space-between;
+  
+    }
+    .avone-style  .fav-catagories .catagory2 {
+      margin-top: -50px;
+  
+    }
+    .avone-style .fav-catagories .catagory2 .pic2{
+      width: 200px;
+    }
+  
+    }
+@media (min-width: 992px) {
+.fav-catagories .catagory2  a:hover::before{
+    width: 162.9px;
+    background-color: #316b9e;
+}
+    }
+@media (max-width: 420px) {
+.fav-catagories .catagory2  a:hover::before{
+    width: 114px;
+    background-color: #316b9e;
+}
+    }
+@media (max-width: 300px) {
+.fav-catagories .catagory2  a:hover::before{
+    width: 70px;
+    background-color: #316b9e;
+}
+    }
+/*AVONE*/
+/*fotter*/
+@media (max-width: 992px) {
+    footer .container{
+      display: block;
+    }
+    footer .container .left-footer {
+      margin-bottom: 20px;
+    }
+    footer .container .right-ftr {
+      margin-bottom: 20px;
+    }
+  }
+/*fotter*/
